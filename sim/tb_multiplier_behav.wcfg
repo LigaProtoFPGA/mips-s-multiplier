@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_multiplier_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_multiplier" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2,422.667 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,686.668 ns"></ZoomEndTime>
+      <Cursor1Time time="2,915.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="203"></NameColumnWidth>
+      <ValueColumnWidth column_width="196"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="48" />
+   <wvobject fp_name="/tb_multiplier/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/running" type="other">
+      <obj_property name="ElementShortName">running</obj_property>
+      <obj_property name="ObjectShortName">running</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/Mpland" type="array">
+      <obj_property name="ElementShortName">Mpland[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mpland[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/Mplier" type="array">
+      <obj_property name="ElementShortName">Mplier[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mplier[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/endop_ser" type="logic">
+      <obj_property name="ElementShortName">endop_ser</obj_property>
+      <obj_property name="ObjectShortName">endop_ser</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/product_ser" type="array">
+      <obj_property name="ElementShortName">product_ser[63:0]</obj_property>
+      <obj_property name="ObjectShortName">product_ser[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/endop_bth" type="logic">
+      <obj_property name="ElementShortName">endop_bth</obj_property>
+      <obj_property name="ObjectShortName">endop_bth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/product_bth" type="array">
+      <obj_property name="ElementShortName">product_bth[63:0]</obj_property>
+      <obj_property name="ObjectShortName">product_bth[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/cyc_ser" type="other">
+      <obj_property name="ElementShortName">cyc_ser</obj_property>
+      <obj_property name="ObjectShortName">cyc_ser</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/cyc_bth" type="other">
+      <obj_property name="ElementShortName">cyc_bth</obj_property>
+      <obj_property name="ObjectShortName">cyc_bth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/done_ser" type="other">
+      <obj_property name="ElementShortName">done_ser</obj_property>
+      <obj_property name="ObjectShortName">done_ser</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/done_bth" type="other">
+      <obj_property name="ElementShortName">done_bth</obj_property>
+      <obj_property name="ObjectShortName">done_bth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/errors" type="other">
+      <obj_property name="ElementShortName">errors</obj_property>
+      <obj_property name="ObjectShortName">errors</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/N" type="other">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/PERIOD" type="other">
+      <obj_property name="ElementShortName">PERIOD</obj_property>
+      <obj_property name="ObjectShortName">PERIOD</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider28">
+      <obj_property name="label"> serial</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_serial/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_serial/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_serial/Mpland" type="array">
+      <obj_property name="ElementShortName">Mpland[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mpland[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_serial/Mplier" type="array">
+      <obj_property name="ElementShortName">Mplier[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mplier[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_serial/endop" type="logic">
+      <obj_property name="ElementShortName">endop</obj_property>
+      <obj_property name="ObjectShortName">endop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_serial/Product" type="array">
+      <obj_property name="ElementShortName">Product[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Product[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_serial/EA" type="other">
+      <obj_property name="ElementShortName">EA</obj_property>
+      <obj_property name="ObjectShortName">EA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_serial/regP" type="array">
+      <obj_property name="ElementShortName">regP[64:0]</obj_property>
+      <obj_property name="ObjectShortName">regP[64:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_serial/regB" type="array">
+      <obj_property name="ElementShortName">regB[32:0]</obj_property>
+      <obj_property name="ObjectShortName">regB[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_serial/count" type="other">
+      <obj_property name="ElementShortName">count</obj_property>
+      <obj_property name="ObjectShortName">count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_serial/N" type="other">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider29">
+      <obj_property name="label">booth</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/Mpland" type="array">
+      <obj_property name="ElementShortName">Mpland[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mpland[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/Mplier" type="array">
+      <obj_property name="ElementShortName">Mplier[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Mplier[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/endop" type="logic">
+      <obj_property name="ElementShortName">endop</obj_property>
+      <obj_property name="ObjectShortName">endop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/Product" type="array">
+      <obj_property name="ElementShortName">Product[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Product[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/EA" type="other">
+      <obj_property name="ElementShortName">EA</obj_property>
+      <obj_property name="ObjectShortName">EA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/regP" type="array">
+      <obj_property name="ElementShortName">regP[70:0]</obj_property>
+      <obj_property name="ObjectShortName">regP[70:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/regB" type="array">
+      <obj_property name="ElementShortName">regB[35:0]</obj_property>
+      <obj_property name="ObjectShortName">regB[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/count" type="other">
+      <obj_property name="ElementShortName">count</obj_property>
+      <obj_property name="ObjectShortName">count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/acc" type="array">
+      <obj_property name="ElementShortName">acc[35:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/term" type="array">
+      <obj_property name="ElementShortName">term[35:0]</obj_property>
+      <obj_property name="ObjectShortName">term[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/accsum" type="array">
+      <obj_property name="ElementShortName">accsum[35:0]</obj_property>
+      <obj_property name="ObjectShortName">accsum[35:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/window" type="array">
+      <obj_property name="ElementShortName">window[2:0]</obj_property>
+      <obj_property name="ObjectShortName">window[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/N" type="other">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/W" type="other">
+      <obj_property name="ElementShortName">W</obj_property>
+      <obj_property name="ObjectShortName">W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/ITER" type="other">
+      <obj_property name="ElementShortName">ITER</obj_property>
+      <obj_property name="ObjectShortName">ITER</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/ACC_W" type="other">
+      <obj_property name="ElementShortName">ACC_W</obj_property>
+      <obj_property name="ObjectShortName">ACC_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_multiplier/dut_booth/TOT" type="other">
+      <obj_property name="ElementShortName">TOT</obj_property>
+      <obj_property name="ObjectShortName">TOT</obj_property>
+   </wvobject>
+</wave_config>
